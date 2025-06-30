@@ -1,6 +1,7 @@
 ---
 layout: default
 hidden: true
+order: 8
 ---
 
 ## Comment rejoindre le SAIN
