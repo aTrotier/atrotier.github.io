@@ -115,10 +115,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "aTrotier/atrotier.github.io"
-    repo_id: "R_kgDOPC5osA"
+    repo: https://github.com/aTrotier/atrotier.github.io
+    repo_id: R_kgDOPC5osA
     category: "Web Comments"
-    category_id: "DIC_kwDOPC5osM4CsT6l"
+    category_id: DIC_kwDOPC5osM4CsT6l
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
