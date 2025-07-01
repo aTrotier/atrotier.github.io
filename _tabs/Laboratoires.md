@@ -4,10 +4,46 @@ hidden: true
 order: 7
 ---
 
-Liste des laboratoires et contacts attachés au réseau SAIN
+# Liste des laboratoires et contacts attachés au réseau SAIN
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<!-- Map container with fixed height -->
+<div id="map" style="height: 400px; margin-bottom: 1em;"></div>
+
+<!-- Leaflet JS + Markers -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([47.0, 2.0], 5); // France center
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    // Markers
+    L.marker([45.75, 4.85]).addTo(map).bindPopup("CERMEP (Lyon/Bron)");
+    L.marker([43.6045, 1.4442]).addTo(map).bindPopup("CREFRE / ToNIC (Toulouse)");
+    L.marker([48.8566, 2.3522]).addTo(map).bindPopup("CRI / FRIM, ICM (CENIR), PIV (Paris)");
+    L.marker([43.2965, 5.3698]).addTo(map).bindPopup("CRMBM (Marseille)");
+    L.marker([44.8378, -0.5792]).addTo(map).bindPopup("CRMSB / IBIO (Bordeaux)");
+    L.marker([49.1829, -0.3707]).addTo(map).bindPopup("CYCERON (Caen)");
+    L.marker([45.1885, 5.7245]).addTo(map).bindPopup("GIN, IRMage (Grenoble)");
+    L.marker([48.5734, 7.7521]).addTo(map).bindPopup("ICube (Strasbourg)");
+    L.marker([44.8067, -0.6067]).addTo(map).bindPopup("IHU LIRYC (Pessac)");
+    L.marker([45.7772, 3.0870]).addTo(map).bindPopup("IVIA (Clermont-Ferrand)");
+    L.marker([50.6292, 3.0573]).addTo(map).bindPopup("LIIFE / PLBS (Lille)");
+    L.marker([45.7719, 4.8902]).addTo(map).bindPopup("PILoT/CREATIS (Villeurbanne)");
+    L.marker([48.1173, -1.6778]).addTo(map).bindPopup("PRISM (Rennes)");
+    L.marker([47.4784, -0.5632]).addTo(map).bindPopup("PRISM (Angers)");
+    L.marker([49.8950, 2.3020]).addTo(map).bindPopup("PIRMPA (Amiens)");
+  });
+</script>
+
 
 * TOC
 {:toc}
+
 
 ---
 
@@ -138,6 +174,17 @@ Plateforme Imagerie IHU LIRYC (IRM, RX, µCT, échographie, scanner) pré cliniq
 
 ---
 
+## [IRMage - Grenoble](https://irmage.univ-grenoble-alpes.fr)
+<span style="font-weight:bold; color:#52bd31;">Lien et réseaux :</span>
+* https://irmage.univ-grenoble-alpes.fr
+
+<span style="font-weight:bold; color:#52bd31;">Contacts</span>
+* Hervé Mathieu : herve.mathieu@univ-grenoble-alpes.fr
+
+
+
+---
+
 ## [LIIFE / PLBS - Lille](https://ums-plbs.univ-lille.fr/les-plateformes-constitutives/imagerie-du-vivant-exploration-fonctionnelle)
 <span style="font-weight:bold; color:#52bd31;">Lien et réseaux :</span>
 * https://ums-plbs.univ-lille.fr/les-plateformes-constitutives/imagerie-du-vivant-exploration-fonctionnelle
@@ -178,4 +225,14 @@ Plateforme/Laboratoire: Plateforme d'Imagerie multimodale et expérimentale prec
 * IRM préclinque (Rennes) : pierre-antoine.eliat@univ-rennes.fr
 * Coordinateur PRISM : francois.mariette@inrae.fr
 
+---
 
+## [PIRMPA - Amiens](https://www.u-picardie.fr/recherche/structures-recherche/plateformes-scientifiques-dequipements-mutualises/plateforme-imagerie-par-resonance-magnetique-pour-petits-animaux-pirmpa)
+Plateforme Imagerie par Résonance Magnétique pour Petits Animaux (PIRMPA)
+
+<span style="font-weight:bold; color:#52bd31;">Lien et réseaux :</span>
+* [https://www.u-picardie.fr/recherche/structures-recherche/plateformes-scientifiques-dequipements-mutualises/plateforme-imagerie-par-resonance-magnetique-pour-petits-animaux-pirmpa](https://www.u-picardie.fr/recherche/structures-recherche/plateformes-scientifiques-dequipements-mutualises/plateforme-imagerie-par-resonance-magnetique-pour-petits-animaux-pirmpa)
+
+<span style="font-weight:bold; color:#52bd31;">Contacts</span>
+* Sidy Fall : sidy.fall@u-picardie.fr
+* Olivier Balédent
