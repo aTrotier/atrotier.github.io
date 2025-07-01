@@ -1,0 +1,15 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+atrotier:
+  name: Aurélien Trotier
+  url: https://github.com/atrotier/
+
+blemasson:
+  name: Benjamin Lemasson
+  url: https://github.com/blemasso
