@@ -15,12 +15,15 @@ Avancés en Imagerie in vivo du Petit Animal (SAIPAs).
 Le SAIN a pour objectif de promouvoir et de coordonner les activités de recherche en imagerie du petit animal en France. Il vise à favoriser les échanges entre les chercheurs, à partager des ressources et des compétences, et à organiser des formations et des séminaires pour améliorer les pratiques en imagerie préclinique.
 
 Cela se concrètise par :
-- l'organisations de webinaires sur des thèmes spécifiques à l'i
+- L'utilisation d'une liste de diffusion pour les échanges entre les membres
+- L'organisations de webinaires sur des thèmes spécifiques
+- La mise en relation des membres pour des partages de méthodes ou la mise en place de projets
+
 ## Laboratoires et membres associés
 
 Les membres et laboratoires associés au SAIN sont francophone, majoritairement en France, mais aussi en Belgique et en Suisse. Ils sont impliqués dans l'imagerie du petit animal, notamment en IRM, TEP, et autres modalités d'imagerie.
 
-Vous trouverez plus d'informations sur les membres dans la rubrique laboratoires.
+Vous trouverez plus d'informations sur les membres dans la rubrique [laboratoires](/Laboratoires).
 
 
 ## Prochain évènements
@@ -34,17 +37,8 @@ Vous trouverez plus d'informations sur les membres dans la rubrique laboratoires
 
 - Réunion du SAIN le 19 juin 2025 à 10h
 
-[Lien vers les derniers compte-rendu](https://github.com/SAIN-IMAGING/WIKI-SAIN/tree/main/CR)
+[Lien vers les compte-rendus](/categories/réunion/)
 
 
 ## Partage de compétences / connaissances
 - [Liste des séquences mises à disposition par des membres du réseau](https://docs.google.com/spreadsheets/d/1xqKAkidZQKa7aXht2JRGuG61W9NOLRBn0T7JhtaN7WI/edit?usp=sharing)
-
-## Membre du Bureau
-- Sabrina Doblas
-- Pierre-Antoine Eliat
-- Denis Grenier
-- Frank Kober
-- Benjamin Lemasson
-- Emeline Ribot
-- Aurélien Trotier
