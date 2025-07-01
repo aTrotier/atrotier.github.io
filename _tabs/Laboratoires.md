@@ -5,7 +5,7 @@ order: 7
 ---
 
 # Liste des laboratoires et contacts attachés au réseau SAIN
-
+{% raw %}
 <!-- Leaflet CSS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
@@ -39,7 +39,7 @@ L.marker([47.4784, -0.5632]).addTo(map).bindPopup("PRISM (Angers)");
 L.marker([49.8950, 2.3020]).addTo(map).bindPopup("PIRMPA (Amiens)");
 });
 </script>
-
+{% endraw %}
 
 * TOC
 {:toc}
