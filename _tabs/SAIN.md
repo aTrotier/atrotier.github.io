@@ -1,7 +1,9 @@
 ---
 layout: default
-hidden: true
-order: 5
+hidden: false
+title: Accueil
+icon: fas fa-home
+order: 1
 ---
 
 ![Logo du SAIN](/assets/img/LogoSAIN_small.png)
