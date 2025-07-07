@@ -109,7 +109,7 @@
         if (selectedSpectro !== 'none' && selectedSpectro !== 'all' && lab.spectro.includes(selectedSpectro)) {
           const marker = L.marker(lab.position, {
             icon: L.icon({
-              iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+              iconUrl: '/assets/img/marker-icon-red.png',
               shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
               iconSize: [25, 41],
               iconAnchor: [12, 41],
@@ -131,7 +131,7 @@
             (selectedIRM !== 'all' && lab.cryo && lab.cryo.includes(selectedIRM))
           ) {
             markerOptions = { icon: L.icon({
-              iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
+              iconUrl: '/assets/img/marker-icon-violet.png',
               shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
               iconSize: [25, 41],
               iconAnchor: [12, 41],
