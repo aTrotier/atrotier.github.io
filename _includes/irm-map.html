@@ -65,13 +65,15 @@
       { name: "PIRMPA (Amiens)", position: [49.8950, 2.3020], irm: ["7T"], spectro: [], cryo: [] },
     ];
 
+    // Initialisation de la carte
+    
     var map = L.map('map2').setView([47.0, 2.0], 5);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    
+
   </script>
 
 </body>
